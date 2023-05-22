@@ -53,8 +53,12 @@ git push
 ```js
 git init
 ```
-# 2.1
-criar rpositorio no git hub
+# 2.1 -  criar rpositorio no git hub
 
-### 2.3. repeti a partir do item 2
+![image](https://github.com/rogeriompessoa/react_vite_route/assets/116043523/d45e7ecc-7210-49bc-8146-c4f7f8360bf2)
+
+
+### 2.4. repeti a partir do item 2 - adicionar as alteraçoes que ser
+
+
 
