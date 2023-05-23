@@ -5,6 +5,8 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import { Cadastro } from './pages/Cadastro'
 import { Sobre } from './pages/Sobre'
 import { Contato } from './pages/Contato'
+import { Logim } from './pages/Logim'
+import { Home } from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to='/castrado'>cadastro</Link>
@@ -24,16 +26,17 @@ function App() {
               <Link to='contato'>contato</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/casdastro' element={<Cadastro />} />
+          <Route path='/login' element={<Logim />} />
           <Route path='/sobre' element={<Sobre/>} />
           <Route path='/contato' element={<Contato/>} />
 
         </Routes>
-        
+
       </BrowserRouter >
     </>
   )
